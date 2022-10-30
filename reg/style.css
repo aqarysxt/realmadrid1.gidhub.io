@@ -1,0 +1,137 @@
+   
+    body {
+	background: url(3.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+:root {
+	--index: calc(1vw + 1vh);
+	
+}
+
+.form {
+	position: absolute;
+	top: 50%;
+	left: 70%;
+    border-radius: 20px;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,.89);
+    background-blend-mode: screen;
+
+    
+    
+}
+.form img{
+    margin-left: 130px;
+    margin-top: -0.1px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    
+}
+
+.form h1 {
+	margin: 30px 100px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.input-form {
+	margin: 15px 40px;
+	text-align: center;
+}
+
+.input-form button {
+	padding: 10px;
+	width: 100%;
+    border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	background: none;
+	outline: none;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.input-form input{
+    padding: 10px;
+	width: 95%;
+    border-radius: 15px;
+	color: #fff;
+	font-size: 20px;
+	background: none;
+	outline: none;
+	border: 1px solid #00529f;
+	box-sizing: border-box;
+}
+.input-form input[type="email"]:focus {
+	border-color: #febe10;
+}
+.input-form input[type="password"]:focus {
+	border-color: #febe10;
+}
+.input-form input[type="name"]:focus {
+	border-color: #febe10;
+}
+
+.input-form button[type="text"]:focus, .input-form button[type="password"]:focus {
+	border: 1px solid #febe10;
+}
+
+.input-form button[type="submit"] {
+	margin-top: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	background: #00529f;
+	transition: .3s;
+}
+
+.input-form button[type="submit"]:hover {
+	background: #febe10;
+}
+
+.form a {
+	display: block;
+	padding: 0 0 30px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.form a:hover {
+	color: #ff9505;
+}
+
+
+img{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.reg button{
+    text-align: center;
+    margin-left: 172px; 
+    background: white;
+    color: #00529f;
+    height: 20px;
+    font-family:monospace,sans-serif,cursive;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #febe10;
+}
+    .reg button[type="submit"]:hover {
+	color: #febe10;
+    border: 1px solid #00529f;
+        background-color: #00529f;
+}
+    
+    
